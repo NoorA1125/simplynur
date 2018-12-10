@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.about-paragraph {
+    margin-bottom: 30px;
+}
+
 body:before {
   content: "";
   position: fixed;
