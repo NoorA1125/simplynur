@@ -417,11 +417,11 @@ h2 {
 }
 
 .badge-error {
-  background-color: gray !important;
+  background-color: transparent !important;
 }
 
 .badge-error:hover {
-  background-color: darkgray;
+  background-color: transparent;
 }
 
 .badge-warning {
