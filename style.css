@@ -3,6 +3,7 @@
     margin: 0;
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html {
@@ -135,6 +136,7 @@ body.open:after {
 .b-link:hover, .b-link--active {
   border-left: #444444 solid 2px;
   padding-left: 30px;
+  text-decoration: none;
 }
 
 .b-menu {
@@ -155,6 +157,7 @@ body.open:after {
 
 .b-menu:hover {
   border: #444444 solid 2px;
+  text-decoration: none;
 }
 
 .b-bun {
@@ -307,6 +310,7 @@ h1 {
 }
 #polina button:hover { 
    background: rgba(0,0,0,0.5);
+   text-decoration: none;
 }
 
 a {
@@ -318,7 +322,8 @@ a {
   transition: .6s background; 
 }
 a:hover{
-  background:rgba(0,0,0,0.9);
+  background:rgba(0,0,0,0.5);
+  text-decoration: none;
 }
 @media screen and (max-width: 500px) { 
   div{width:70%;} 
@@ -333,7 +338,7 @@ a:hover{
   position: relative;
   width: 100%;
   height: 100%;
-  background: url('http://unsplash.it/1200x800') center center no-repeat;
+  background: transparent center center no-repeat;
   background-size: cover;
   
   &:before {
@@ -360,7 +365,8 @@ a:visited {
 
 a:hover {
   color: #006196;
-  text-decoration: underline;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .first-header {
@@ -429,7 +435,7 @@ h2 {
 }
 
 .badge-warning:hover {
-  background-color: darkmagenta;
+  background-color: transparent;
 }
 
 .badge-success {
@@ -437,7 +443,7 @@ h2 {
 }
 
 .badge-success:hover {
-  background-color: darkcyan;
+  background-color: transparent;
 }
 
 .prefooter {
