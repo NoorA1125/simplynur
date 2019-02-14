@@ -248,18 +248,6 @@ body.open:after {
     background-size: cover;
 }
 
-/* First image (Logo. Full height) */
-.bgimg-1 {
-    background-image: url('https://c2.staticflickr.com/6/5208/5308016251_3eaa8dc84d_b.jpg');
-    min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-    background-image: url("https://www.w3schools.com/w3css/img_parallax2.jpg");
-    min-height: 400px;
-}
-
 .container {
   text-align: center;
 }
