@@ -1,0 +1,111 @@
+<!Doctype html>
+<html>
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>  
+<!-- Navigation -->
+<div class="b-nav">
+  <li><a class="b-link" href="#" target="_blank">Home</a></li>
+  <li><a class="b-link" href="#" target="_blank">About Me</a></li>
+  <li><a class="b-link" href="#" target="_blank">Blog</a></li>
+  <li><a class="b-link" href="#" target="_blank">Contact</a></li>
+</div>
+
+<!-- Burger-Icon -->
+<div class="b-container">
+  <div class="b-menu">
+    <div class="b-bun b-bun--top"></div>
+    <div class="b-bun b-bun--mid"></div>
+    <div class="b-bun b-bun--bottom"></div>
+  </div>
+
+  <!-- Burger-Brand -->
+  <a href="#" class="b-brand" style="color:#fff;">نور عمر</a>
+</div>
+
+  <div class="one-bg"> 
+    <div class="overlay">
+    <div id="polina">
+<h1>WELCOME</h1>
+<p>A Website by: </p>
+<p><a href="#">Noor Omar Abdikadir</a> </p>
+<p>Hello, my name is Noor Omar Abdikadir and welcome to my blog. This blog is for not only for class, but a blog that will inform you on the important things of life, society, and the community. Before I go on, I will leave you with this quote: </p>
+<p>"Determination takes ideas far, but true success is found the in the ingenuity and generation of thoughts" - Reneau</p>
+<button><a href="">Resume</a></button>
+</div> 
+</div> 
+</div>
+<div class="container-fluid text-center">
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+          <!-- Don't forget the three components to blogs - 1. Observational 2. Personal relevance 3. Connected to class/learning/academics/future work -->
+          <!--  Blog 3 - Diaper Bank -->
+          <div class="wow">
+          <p>
+          Without any further due, today's blog will be about the Diaper Bank. 
+          So, what exactly is the diaper bank and what is their purpose in society?
+          It would be too simple to simply outright feed you the answer on a silver platter, so I will first fill you with the important stuff. Otherwise, the information I am about to present to you, the Diaper Banks purpose, would be lain dormant. 
+          It all begans with poverty. As a soceity, we're rapidly growing and advancing at a very exceptional rate and although it may appear as though we're keeping up with our developments, we've never been further from the truth. 
+          Newtons Law states that "For every action, theres an equal or opposite reaction". What does this mean? It means while the rich get richer and consume 90% of the poppulations wealth, the poor are equally getting [more] poor(er).
+
+          And there's a plethora of groups & individuals to put the blame on. From the government:
+          Federal Poverty Level is really really low but whats shocking is what the government considers "poor". <br>
+          Single: 12,490/year  = poor <br>
+          Family of 3 = 21,330 = Poor <br>
+          Family of 4 = 24,000/year = poor <br>
+          to politicians not focussing on these issues because they believe poor peoples present situation is circumstantial and not really the lack of support from government & unjustice laws that've been proposed/passed. However, that statement is true to a degree. If we we're being pragmatic, these sorts of people are excluding immigrants, bad neighborhoods, misrepresented convicts, who simply don't have the everyday resources to dig themselves out of this whole. <br>
+          This going a different route then I intended it to, so let me back track and get straight to the point. 
+          Poverty level is at an all time low and the government is not giving it the attention it deserves. SNAP and WIC cannot be used for diapers, nor can Food Stamps. This is still a big deal considering kids go through $936 worth of diapers in MONTH! Thats $100/month of a single child on diapers alone. With utilities taking up a majority of ones income (working minimum wage), $100 is A LOT. So much so, that it has reached a point where families have to decide between paying their bills for the month or buyinh diapers. It is a very unfortunate and very disheartening state to be mind. <br>
+          Allah the Al-Mighty is so great, he's sent help for families in that state. This is WHY the Diaper Bank exists.
+          They understand that something as little as diapers, an everyday necessity for both, the old and young can affect the functionality of a family (mental stress, fatigue etc.) as well as jobs (some day cares REQUIRE a child be brought in with diapers).
+
+          The Diaper Banks works very hard of off volunteers to make sure diapers is the least of a families concern, so that they can focus on what really matters. <br> It doesn't take a whole lot of do something good. A donation of diaper(s) can go a long way. So please donate and,
+          To Support their 500,000 Campaign & <br>
+          For More Information, Please Visit: http://www.diaperbank.org/ 
+        </p>
+        <div class="butt"><button class="btn-1"><a href="blog2">Back</a></button> <button class="btn-2"><a href="blog4">Next</a></button></div>
+      </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    'use strict';
+
+(function() {
+  var body = document.body;
+  var burgerMenu = document.getElementsByClassName('b-menu')[0];
+  var burgerContain = document.getElementsByClassName('b-container')[0];
+  var burgerNav = document.getElementsByClassName('b-nav')[0];
+
+  burgerMenu.addEventListener('click', function toggleClasses() {
+    [body, burgerContain, burgerNav].forEach(function (el) {
+      el.classList.toggle('open');
+    });
+  }, false);
+})();
+  </script>
+  <script type="text/javascript">
+    var current = 1; //keeps track of the current div
+var height = $('.roles').height(); //the height of the roles div
+var numberDivs = $('.roles').children().length; //the number of children of the roles div
+var first = $('.roles div:nth-child(1)'); //the first div nested in roles div
+setInterval(function() {
+    var number = current * -height;
+    first.css('margin-top', number + 'px');
+    if (current === numberDivs) {
+        first.css('margin-top', '0px');
+        current = 1;
+    } else current++;
+}, 2000);
+  </script>
+  </body>
+  </html>
+
+        
