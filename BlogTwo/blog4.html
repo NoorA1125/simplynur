@@ -1,0 +1,95 @@
+<!Doctype html>
+<html>
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>  
+<!-- Navigation -->
+<div class="b-nav">
+  <li><a class="b-link" href="#" target="_blank">Home</a></li>
+  <li><a class="b-link" href="#" target="_blank">About Me</a></li>
+  <li><a class="b-link" href="#" target="_blank">Blog</a></li>
+  <li><a class="b-link" href="#" target="_blank">Contact</a></li>
+</div>
+
+<!-- Burger-Icon -->
+<div class="b-container">
+  <div class="b-menu">
+    <div class="b-bun b-bun--top"></div>
+    <div class="b-bun b-bun--mid"></div>
+    <div class="b-bun b-bun--bottom"></div>
+  </div>
+
+  <!-- Burger-Brand -->
+  <a href="#" class="b-brand" style="color:#fff;">نور عمر</a>
+</div>
+
+  <div class="one-bg"> 
+    <div class="overlay">
+    <div id="polina">
+<h1>WELCOME</h1>
+<p>A Website by: </p>
+<p><a href="#">Noor Omar Abdikadir</a> </p>
+<p>Hello, my name is Noor Omar Abdikadir and welcome to my blog. This blog is for not only for class, but a blog that will inform you on the important things of life, society, and the community. Before I go on, I will leave you with this quote: </p>
+<p>"Determination takes ideas far, but true success is found the in the ingenuity and generation of thoughts" - Reneau</p>
+<button><a href="">Resume</a></button>
+</div> 
+</div> 
+</div>
+<div class="container-fluid text-center">
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+          <!-- Don't forget the three components to blogs - 1. Observational 2. Personal relevance 3. Connected to class/learning/academics/future work -->
+        <!-- Blog 4 -->
+        <div class="wow">
+        <p>
+            Howdy Partner! <br> I wanted to write todays blog about out guest speaker from today, a representative of the Primavera Foundation. In plain and simple words, that was a representation of what not to do and say when presenting. Especially an organization as popular and large as Primavera for all they do. The presenter was not answering questions as he was too busy boasting and getting his portfolio out to us, as if we could hire. I don't know. I don't wanna be a douche, an a**hole, or disrespectful. We're raised in different environments and we're both a product of our environments I strongly believe that. However, that was too much narcism, conceit, and misdirecting as I don't feel I recieved value for my time. Had to get that off my chest. With that being said however, he is an incredible man and I wish him a better everything. <br> 
+            Now that we got that out of the way, I will shift my topic towards the Ronald Mcdonald house.
+            I did not know that the McDonald house was so helpful and involved within the community. 
+            <br>
+            Let's straight to the bread and butter. Who is the Ronald McDnald House of Charities? A charity organization who provides shelter and support for families with family members in the hospital. They basically provide housing and food for families who live within 30 miles radius minimum.
+            <br> How are they funded? 15% of their funding comes from the Franchise (McDonalds) and approx.
+            85% from the community of people. I am very proud to say that, Tuconcians, yes, Tucsonians. Civilians who encompass Tucson, raise $1.1 Million annually!!! Woooow!
+          </p>
+          <div class="butt"><button class="btn-1"><a href="blog3.html">Back</a></button> <button class="btn-2"><a href="index.html">Home</a></button></div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    'use strict';
+
+(function() {
+  var body = document.body;
+  var burgerMenu = document.getElementsByClassName('b-menu')[0];
+  var burgerContain = document.getElementsByClassName('b-container')[0];
+  var burgerNav = document.getElementsByClassName('b-nav')[0];
+
+  burgerMenu.addEventListener('click', function toggleClasses() {
+    [body, burgerContain, burgerNav].forEach(function (el) {
+      el.classList.toggle('open');
+    });
+  }, false);
+})();
+  </script>
+  <script type="text/javascript">
+    var current = 1; //keeps track of the current div
+var height = $('.roles').height(); //the height of the roles div
+var numberDivs = $('.roles').children().length; //the number of children of the roles div
+var first = $('.roles div:nth-child(1)'); //the first div nested in roles div
+setInterval(function() {
+    var number = current * -height;
+    first.css('margin-top', number + 'px');
+    if (current === numberDivs) {
+        first.css('margin-top', '0px');
+        current = 1;
+    } else current++;
+}, 2000);
+  </script>
+  </body>

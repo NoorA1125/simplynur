@@ -1,0 +1,96 @@
+<!Doctype html>
+<html>
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>  
+<!-- Navigation -->
+<div class="b-nav">
+  <li><a class="b-link" href="#" target="_blank">Home</a></li>
+  <li><a class="b-link" href="#" target="_blank">About Me</a></li>
+  <li><a class="b-link" href="#" target="_blank">Blog</a></li>
+  <li><a class="b-link" href="#" target="_blank">Contact</a></li>
+</div>
+
+<!-- Burger-Icon -->
+<div class="b-container">
+  <div class="b-menu">
+    <div class="b-bun b-bun--top"></div>
+    <div class="b-bun b-bun--mid"></div>
+    <div class="b-bun b-bun--bottom"></div>
+  </div>
+
+  <!-- Burger-Brand -->
+  <a href="#" class="b-brand" style="color:#fff;">نور عمر</a>
+</div>
+
+  <div class="one-bg"> 
+    <div class="overlay">
+    <div id="polina">
+<h1>WELCOME</h1>
+<p>A Website by: </p>
+<p><a href="#">Noor Omar Abdikadir</a> </p>
+<p>Hello, my name is Noor Omar Abdikadir and welcome to my blog. This blog is for not only for class, but a blog that will inform you on the important things of life, society, and the community. Before I go on, I will leave you with this quote: </p>
+<p>"Determination takes ideas far, but true success is found the in the ingenuity and generation of thoughts" - Reneau</p>
+<button><a href="">Resume</a></button>
+</div> 
+</div> 
+</div>
+<div class="container-fluid text-center">
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <div class="wow">
+  <p>
+          <!--Blog 1 Don't forget the three components to blogs - 1. Observational 2. Personal relevance 3. Connected to class/learning/academics/future work -->
+          
+            Today's marks day 1 of my first blog. Welcome. 
+            In class, we a substitute as Dr.Wolff couldn't attend class today and 2 representatives of the Peace Corp. 
+            I really enjoyed listening to them talk. Especially the first lady (really wish I remembered her name). She spoke about how she spent her Peace Corp hours in a place in South Africa. The filteration in her diction triggered childhood memories and I could visualize a time when my thought process was parallel to those of the native land.
+            The unity and brotherhood in your neighbors, the connection, and the improper ways of thinking and how we based our beliefs. Definetly the good times. But the rawness in her diction I believe is what really stood out. Had she spoked from a stage, similar to those of the Western world (biasy, pity etc.), I definetly would've viewed not only the presentation, but her differently as well. That wasn't the case, and she really proved herself and because of that easily won my trust about the Peace Corp. I'm currently looking into and deciding if its something I'd like to do.
+            She mentioned something about having her tuition waved I believe? or getting college reimburstment as well as getting paid. But what really stood out to me was not the money aspect, but the cultral aspect. She explained in a funny manner of how she overcame cultral shock and through her facial expressions, you could just tell that she genuinely enjoyed it. And that put a smile on my face.
+         
+  </p> 
+<div class="butt"><button class="btn-1"><a href="index.html">Back</a></button> <button class="btn-2"><a href="blog2">Next</a></button></div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    'use strict';
+
+(function() {
+  var body = document.body;
+  var burgerMenu = document.getElementsByClassName('b-menu')[0];
+  var burgerContain = document.getElementsByClassName('b-container')[0];
+  var burgerNav = document.getElementsByClassName('b-nav')[0];
+
+  burgerMenu.addEventListener('click', function toggleClasses() {
+    [body, burgerContain, burgerNav].forEach(function (el) {
+      el.classList.toggle('open');
+    });
+  }, false);
+})();
+  </script>
+  <script type="text/javascript">
+    var current = 1; //keeps track of the current div
+var height = $('.roles').height(); //the height of the roles div
+var numberDivs = $('.roles').children().length; //the number of children of the roles div
+var first = $('.roles div:nth-child(1)'); //the first div nested in roles div
+setInterval(function() {
+    var number = current * -height;
+    first.css('margin-top', number + 'px');
+    if (current === numberDivs) {
+        first.css('margin-top', '0px');
+        current = 1;
+    } else current++;
+}, 2000);
+  </script>
+</body>
+</html>
+         
