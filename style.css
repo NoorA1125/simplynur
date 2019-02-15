@@ -269,7 +269,7 @@ body.open:after {
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.2);
-  background: url (bg.JPG);
+  background: url (bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   top: 0;
