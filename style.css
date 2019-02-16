@@ -372,7 +372,7 @@ a:hover {
 
 .first-header {
   background-color: white !important;
-  color: black !important;
+  color: black;
   height: 50px !important;
 }
 
@@ -395,7 +395,7 @@ h2 {
   left: 0;
   width: 50%;
   color: black !important;
-  background-color: #a28e75 !important;
+  background-color: #a28e75;
 }
 
 .oprah-img {
