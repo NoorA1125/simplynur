@@ -268,7 +268,7 @@ body.open:after {
 }
 
 .overlay {
-  background: url (bg.JPG);
+  background: url("bg.JPG")
   background-size: cover;
   background-repeat: no-repeat;
   top: 0;
