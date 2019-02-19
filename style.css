@@ -43,7 +43,7 @@ body.open:after {
   opacity: 1;
   visibility: visible;
 }
-.container img {
+.profile-pic{
     border-radius: 50%;
     max-width: 150px;
     height: auto;
