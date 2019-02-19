@@ -76,8 +76,8 @@ body.open:after {
   margin: 0 auto;
 }
 .bolded {
-padding: 30px;
-border: 0.5px solid #000;
+padding: 10px;
+border: 0.85px solid #000;
 }
 .roles {
     font-size: 25px;
