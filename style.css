@@ -75,7 +75,10 @@ body.open:after {
   text-align: center;
   margin: 0 auto;
 }
-
+.bolded {
+padding: 30px;
+border: 0.5px solid #000;
+}
 .roles {
     font-size: 25px;
     height: 50px;
