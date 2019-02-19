@@ -76,6 +76,8 @@ body.open:after {
   margin: 0 auto;
 }
 .bolded {
+width:100%;
+height: auto;
 padding: 10px;
 border: 0.85px solid #000;
 }
