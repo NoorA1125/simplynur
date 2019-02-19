@@ -43,7 +43,11 @@ body.open:after {
   opacity: 1;
   visibility: visible;
 }
-
+.container img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+}
 .wow {
   width: 100%;
   padding: 30px;
