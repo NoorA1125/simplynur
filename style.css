@@ -9,40 +9,7 @@ html {
      background : #2F3238;
      display: block;
 }
-body {
-overflow: hidden;
-    }
-    .tracking-in-contract{
-        -webkit-animation:tracking-in-contract 1s
-         cubic-bezier(.215,.61,.355,1.000) .3s 
-         both;animation:tracking-in-contract 
-         1s cubic-bezier(.215,.61,.355,1.000) 
-         .3s both}
- h1 {
-     text-transform : none;
-}
-}
- h1 strong {
-     font-weight : 800;
-}
- h2 {
-     text-transform : none;
-     line-height : 20px;
-     margin : 0;
-     color : #fff;
-}
- h3 {
-     font-size : 18px;
-     font-weight : 900;
-}
- h4 {
-     text-transform : none;
-}
- h5 {
-     text-transform : none;
-     font-weight : 700;
-     line-height : 20px;
-}
+
  p {
      font-family : 'Open Sans', sans-serif;
 }
@@ -693,3 +660,5 @@ span a:hover {
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #427388;
 }
+
+
